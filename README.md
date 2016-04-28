@@ -1,7 +1,7 @@
 FrontApp API client
 ===================
 
-Super-simple, minimum abstraction FrontApp API wrapper, in PHP.
+Super-simple, minimum abstraction [Front](https://frontapp.com) API wrapper, in PHP.
 
 In the style of my [MailChimp wrapper](https://github.com/drewm/mailchimp-api), this lets you get from the FrontApp API docs to the code as directly as possible.
 
