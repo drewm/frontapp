@@ -5,11 +5,7 @@ Super-simple, minimum abstraction FrontApp API wrapper, in PHP.
 
 In the style of my [MailChimp wrapper](https://github.com/drewm/mailchimp-api), this lets you get from the FrontApp API docs to the code as directly as possible.
 
-Requires PHP 5.4.
-
-[![Build Status](https://travis-ci.org/drewm/frontapp.svg?branch=master)](https://travis-ci.org/drewm/frontapp)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/drewm/frontapp/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/drewm/frontapp/?branch=master)
-[![Packagist](https://img.shields.io/packagist/dt/drewm/frontapp.svg?maxAge=2592000)](https://packagist.org/packages/drewm/frontapp)
+Requires PHP 5.4 and curl.
 
 Installation
 ------------
