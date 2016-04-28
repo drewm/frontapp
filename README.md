@@ -42,8 +42,6 @@ print_r($result);
 Create an inbox (with a `post` to the `inboxes` method):
 
 ```php
-$list_id = 'b1234346';
-
 $result = $FrontApp->post("inboxes", [
 				'name' => 'Support'
 			]);
@@ -66,7 +64,7 @@ print_r($result);
 Remove a contact using the `delete` method:
 
 ```php
-$contact_id = '1234';
+$contact_id = 'ctc_123';
 
 $FrontApp->delete("contacts/$contact_id");
 ```
