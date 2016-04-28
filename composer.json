@@ -1,0 +1,24 @@
+{
+    "name": "drewm/frontapp",
+    "description": "Super-simple, minimum abstraction FrontApp API wrapper",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "DrewM\\FrontApp\\": "src"
+        }
+    },
+    "homepage": "https://github.com/drewm/frontapp",
+    "authors": [ 
+        {
+            "name": "Drew McLellan",
+            "email": "drew.mclellan@gmail.com",
+            "homepage": "http://allinthehead.com/"
+        }
+    ]
+}
