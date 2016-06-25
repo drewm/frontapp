@@ -1,4 +1,7 @@
 <?php
+
+namespace DrewM\FrontApp;
+
 /**
  * Super-simple, minimum abstraction FrontApp API wrapper
  * This wrapper: https://github.com/drewm/frontapp
