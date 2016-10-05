@@ -191,6 +191,7 @@ class FrontApp
 
             case 'delete':
                 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'DELETE');
+                $this->attachRequestPayload($ch, $args);
                 break;
 
             case 'patch':
