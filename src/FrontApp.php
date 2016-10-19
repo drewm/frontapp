@@ -246,8 +246,8 @@ class FrontApp
 
             $d = json_decode($response['body'], true);
 
-            if (isset($d['status']) && $d['status'] != '200' && isset($d['detail'])) {
-                $this->last_error = sprintf('%d: %s', $d['status'], $d['detail']);
+            if (isset($d['_error'])) {
+                $this->last_error = sprintf('%d: %s', $d['_error']['status'], $d['_error']['message']);
             } else {
                 $this->request_successful = true;
             }
